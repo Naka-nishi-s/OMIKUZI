@@ -8,7 +8,7 @@
     "url": "https://github.com/Naka-nishi-s/OMIKUZI"
   },
   "publisher": "Nakanishi",
-  "version": "0.0.1",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.78.0"
   },
@@ -22,8 +22,12 @@
   "contributes": {
     "commands": [
       {
-        "command": "trash-plugin.happy",
-        "title": "今日の運勢"
+        "command": "trash-plugin.omikuzi",
+        "title": "omikuzi"
+      },
+      {
+        "command": "trash-plugin.weather",
+        "title": "weather"
       }
     ]
   },
